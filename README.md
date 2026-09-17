@@ -1,31 +1,30 @@
-# Hi, I'm Vladyslav 👋
+# Vladyslav Karpenko
 
-**Infrastructure & AI-native software engineer.** Network/systems background (9 yrs, 100+ multi-site deployments), now shipping and operating production software end-to-end by directing AI coding agents (Claude, Codex).
+Infrastructure engineer in Lombardy, Italy, moving into DevOps and cloud.
 
-📍 Macherio (MB), Italy · 💬 EN / UA / RU · 🔗 [LinkedIn](https://www.linkedin.com/in/vladyslav-karpenko-246629164/)
+I have ten years in IT. I started in networking, with MikroTik and a Cisco CCNA. For the last six years I was the only systems administrator in my company. I looked after Windows and Linux servers, Proxmox and VMware ESXi, backups and Zabbix monitoring, and the network underneath.
 
----
+I learned Terraform and Ansible on AWS and GCP in a mentored DevOps program. I'm learning Kubernetes and Azure hands-on now.
 
-### 🚀 What I'm doing now
+## Recent projects
 
-Building real, deployed apps by orchestrating AI agents — I handle requirements, architecture, review, deployment, and ops; the agents write most of the code. I care about shipping things that hold up in production, not demos.
+Docker is my strongest DevOps tool, and these projects run on it. AI coding agents write most of their application code. Hosting and running them is my part.
 
-### 📦 Featured projects
+- [email-to-telegram](https://github.com/Vladkarok/email-to-telegram) forwards mail sent to email aliases into Telegram. Cloudflare Email Routing and a Worker receive the mail, and a Docker app on a VPS delivers it. Pushes to main deploy to staging, and version tags deploy to production.
+- [tg-audio-dl](https://github.com/Vladkarok/tg-audio-dl) is a Telegram bot that downloads audio from YouTube and SoundCloud. It runs as a rootless container with a read-only filesystem. Pushing a version tag builds the image in GitHub Actions and deploys it.
+- [discord-translate](https://github.com/Vladkarok/discord-translate) is a Discord bot that translates a message privately for whoever asked.
 
-| Project | What it is | Stack |
-|---|---|---|
-| **[email-to-telegram](https://github.com/Vladkarok/email-to-telegram)** | Self-hosted email→Telegram forwarding. Stripe billing, GDPR data-lifecycle, abuse guards, Cloudflare Worker→VPS pipeline, expiring links. ~20k LOC. | TypeScript · Cloudflare · Drizzle · Docker |
-| **[tg-audio-dl](https://github.com/Vladkarok/tg-audio-dl)** | Telegram bot that downloads YouTube/SoundCloud audio. Hardened rootless Docker, S3/disk LRU cache, rate-limiting, 2 GB uploads. | Python · Docker · GHCR CI/CD |
-| **[discord-translate](https://github.com/Vladkarok/discord-translate)** | Ephemeral message translation for Discord. Google Cloud Translation, SQLite, allowlist access control. | TypeScript · Docker |
+## Older repos
 
-### 🛠️ Toolbox
+- [zabbix](https://github.com/Vladkarok/zabbix) has Zabbix templates, including UPS monitoring through NUT and per-core CPU usage on Linux.
+- [tutorials](https://github.com/Vladkarok/tutorials) is where I kept sysadmin notes, like ZFS encryption on Proxmox and a Zabbix install.
+- [goaccess-auto-report](https://github.com/Vladkarok/goaccess-auto-report) is a Bash script that pulls web server logs over SSH and builds daily and weekly GoAccess reports.
+- [terraform-aws-datainfo](https://github.com/Vladkarok/terraform-aws-datainfo) is a small Terraform module from 2022 that looks up AMI IDs and a Route53 zone for Terragrunt.
 
-**Cloud / IaC:** AWS · GCP · Terraform / Terragrunt · Ansible · Docker · Kubernetes · Helm
-**CI/CD & Ops:** GitHub Actions · Jenkins · SonarQube · Prometheus · Grafana · Zabbix
-**Networking:** MikroTik / RouterOS (expert) · Ubiquiti UniFi · OSPF · VPN · VLAN segmentation
-**Software:** TypeScript / Node.js · Python · Bash · PostgreSQL · SQLite
-**AI / agentic:** Claude & Claude Code · OpenAI Codex
+## What I'm looking for
 
-### 📫 Reach me
+Work with cloud, CI/CD and Kubernetes, remote or in Monza-Brianza, as an employee or on a long-term contract.
 
-vladyslavkarpenko227@gmail.com · open to Solutions / Forward-Deployed / Technical Support Engineer roles (Italy / EU / remote).
+English B2, Italian A1 and learning. Authorized to work in Italy.
+
+[LinkedIn](https://www.linkedin.com/in/vladkarok/) · vladyslavkarpenko227@gmail.com
