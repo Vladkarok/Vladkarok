@@ -8,7 +8,7 @@ I learned Terraform and Ansible on AWS and GCP in a mentored DevOps program. I'm
 
 ## Recent projects
 
-Docker is my strongest DevOps tool, and these projects run on it. AI coding agents write most of their application code. Hosting and running them is my part.
+Docker is my strongest DevOps tool, and these projects run on it. AI coding agents write the code and do the hands-on work. I decide what runs where, set up the access they cannot reach themselves, and review what they change.
 
 - [email-to-telegram](https://github.com/Vladkarok/email-to-telegram) forwards mail sent to email aliases into Telegram. Cloudflare Email Routing and a Worker receive the mail, and a Docker app on a VPS delivers it. Pushes to main deploy to staging, and version tags deploy to production.
 - [tg-audio-dl](https://github.com/Vladkarok/tg-audio-dl) is a Telegram bot that downloads audio from YouTube and SoundCloud. It runs as a rootless container with a read-only filesystem. Pushing a version tag builds the image in GitHub Actions and deploys it.
